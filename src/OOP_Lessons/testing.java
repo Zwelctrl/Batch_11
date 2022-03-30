@@ -2,19 +2,16 @@ package OOP_Lessons;
 
 public class testing {
 
+    int nn = 34;
+    String name = "TunTun";
+    static int nu = 22;
+
     public static void main(String[] args) {
 
-       int num[] = {1,23,44,64,6656,35};
+        testing obj = new testing();
+        System.out.println(obj.nn);
 
-       int current = 0;
+        System.out.println(obj.name);
 
-        for (int i = 0; i < num.length; i++) {
-            if(num[i]>current){
-                current = num[i];
-            }
-        }
-
-        System.out.println(current);
-
-}
+    }
 }

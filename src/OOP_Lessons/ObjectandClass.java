@@ -7,7 +7,6 @@ public class ObjectandClass {
          *
          *  1) fields (known as variables)
          *  2) methods
-         *
         */
 
         //Global variable
@@ -47,5 +46,10 @@ public class ObjectandClass {
          *  1) Instance var
          *  2) Static var
          */
+
+        creatingObject obj = new creatingObject();
+        System.out.println(obj.a);
+
+        System.out.println(creatingObject.s);
     }
 }
