@@ -23,6 +23,11 @@ public class AboutMethod {
         System.out.println(num1 + num2);
     }
 
+    void str (String firstName, String lastName){
+        System.out.println("First Name is " + firstName);
+        System.out.println("last Name is " + lastName);
+    };
+
 
     public static void main(String[] args) {
 
@@ -34,6 +39,7 @@ public class AboutMethod {
         //
         obj.calculate(22,33);   // 55   (22,33) are arguments
         obj.calculate(101,333); // 434
+        obj.str("ZWEL","HTET");
 
         //trigger
         walk();
