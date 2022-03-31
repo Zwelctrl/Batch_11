@@ -3,10 +3,11 @@ package OOP_Lessons;
 public class OOP_Lesson {
     public static void main(String[] args) {
 
-        testing obj = new testing();    // output an instance var
+        testing obj = new testing();    // build an obj to output an instance var
         System.out.println(obj.name);
 
-        System.out.println(testing.nu);
+        System.out.println(testing.title); // output a static var
+
 
         // Object Oriented Programming
 
