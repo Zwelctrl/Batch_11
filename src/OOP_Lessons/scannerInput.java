@@ -9,7 +9,6 @@ public class scannerInput {
         // Usage of predefined methods
 
 
-
         System.out.print("Enter your name : ");
 
         Scanner input = new Scanner(System.in);
