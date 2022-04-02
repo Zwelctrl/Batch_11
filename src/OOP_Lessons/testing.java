@@ -2,11 +2,23 @@ package OOP_Lessons;
 
 public class testing {
 
-    public static void main(String[] args) {
-        AboutConstructor obj = new AboutConstructor(33,"Su Su");
-        System.out.println(obj.b);    // 22
-        System.out.println(obj.name); // kyaw kyaw
+    int a;
+    String b;
 
-        // different methods, different values
+    testing (int a, String b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public static void main(String[] args) {
+
+        testing obj = new testing(22,"Tun");
+
+
+
+        System.out.println(obj.a);
+        System.out.println(obj.b);
+
+
     }
 }
